@@ -1,39 +1,44 @@
 /* nav related styles */
 
-.nav-title{
-    
+.nav-title {
+
     color: #181818;
-/* font-family: Open Sans; */
-font-size: 45px;
-/* font-style: normal; */
-font-weight: 800;
-/* line-height: normal; */
+    /* font-family: Open Sans; */
+    font-size: 45px;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* line-height: normal; */
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px 200px;
+    /* border: 3px solid red ; */
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
 
-nav>ul{
+nav>ul {
     display: flex;
     align-items: center;
-  
+
 
 }
-nav ul li{
+
+nav ul li {
     margin-right: 51px;
     list-style: none;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
-.btn{
+
+.btn {
     background-color: #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
@@ -45,12 +50,113 @@ nav li a{
 
 }
 
+/* header related styles */
+
+header {
+    background-color: #e1cfc3;
+
+}
+
+.banner {
+    /* border: 3px solid red ; */
+    padding: 0px 0px 0px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.first-banner-div {
+    /* border: 3px solid rgb(0, 255, 4) ; */
+
+}
+
+.second-banner-div {
+
+    /* border: 3px solid rgb(9, 51, 115) ; */
+
+}
+
+.btn-2 {
+
+    margin-left: 10px;
+    background-color: #c39c81;
+    border: 3px solid red;
+
+}
+
+.banner-img {
+    width: 584px;
+    height: 676px;
+    margin-right: 0px;
+
+}
+
+.banner-heading-1 {
+
+    font-family: Open Sans;
+    ;
+}
+
+/* main section related styles */
+.section-description {
+
+    color: #757575;
+    text-align: center;
+ 
+    font-size: 18px;
+    
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.section-header {
+    color: #181818;
+    text-align: center;
+    
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.about{
+
+    border: 3px solid red;
+    /* margin: 100px 230px 100px 230px; */
+    background-color: #FFF8F3;
+}
+main{
+
+    margin: 0px auto;
+    max-width: 1140px;
+}
+.about-info-container{
+    display: flex;
+    align-items: center;
+    /* gap: 30px; */
+    /* margin-left: 20px;
+     */
+     justify-content: space-around;
+}
+
+.about-info{
+    border: 2px solid black
+
+    text-align: center ;
+}
+
+
+
 
 
 
 
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-
