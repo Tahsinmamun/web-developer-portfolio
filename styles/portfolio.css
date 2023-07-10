@@ -230,4 +230,22 @@ body {
 .resume{
     display: flex;
     justify-content: space-evenly;
+    gap: 70px;
+
+}
+.resume-item-title-2{
+
+    color:  #757575;
+/* font-family: Open Sans; */
+/* font-size: 20px; */
+/* font-style: normal; */
+/* font-weight: 600; */
+/* line-height: normal; */
+
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 70px;
+
 }
